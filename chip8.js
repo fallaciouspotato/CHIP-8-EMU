@@ -137,6 +137,7 @@ class Chip8 {
                     case 0x1: this.V[x] |= this.V[y]
                     case 0x2: this.V[x] &= this.V[y]
                     case 0x3: this.V[x] ^= this.V[y]
+                    // continue from here
                     case 0x4: 
                     case 0x5: 
                     case 0x6: 
